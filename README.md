@@ -1,7 +1,7 @@
-#Twenty ?'s
+# Twenty ?'s
 A variation of the classic game, 20 Questions
----
-###To Do:
-[ ]Styling
-[ ]Create icon.png
-[x]Basic Functionality
+____
+### To Do:
+- [ ]Styling
+- [ ]Create icon.png
+- [x]Basic Functionality
