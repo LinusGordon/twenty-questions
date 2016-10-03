@@ -3,13 +3,25 @@
 <head>
 	<title>20 ?'s</title>
 	<script type="text/javascript" src="playgame.js"></script>
-    <link rel="stylesheet" type="text/css" href="popup.css" />
+	<link rel="stylesheet" type="text/css" href="popup.css" />
 </head>
+
 <body>
-	<h1>20 ?'s</h1>
-	<p>A variation of the classic game, Twenty Questions</p>
-	<button type="button" id="play">Play!</button><span><button type="button" id="clear">Clear</button></span>
-	<p id="gameboard"> </p>
-	<hr/>
+	<div class="wrapper">
+		<div class="header">
+			<span class="title">20 ?'s</span>
+			<span class="description">A variation of the classic game, Twenty Questions</span>
+		</div>
+
+		<div class="content">
+			<div id="play-button" class="button" />
+				<span id="play-button-text" class="button-text">Play</span>
+			</div>
+
+			<div id="gameboard">
+				<span id="gameboard-text" class="hidden">???????????????????</span>
+			</div>
+		</div>
+	</div>
 </body>
 <html>
