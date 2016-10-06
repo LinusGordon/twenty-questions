@@ -5,6 +5,7 @@
 	"description" : "A variation of the classic game, 20 Questions",
 	"version" : "1.0",
 	"browser_action" : {
-			 "default_popup": "popup.html"
+			 "default_popup": "popup.html",
+			 "default_icon" : "icon.png"
 	}
 }
